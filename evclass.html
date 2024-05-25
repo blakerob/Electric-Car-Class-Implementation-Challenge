@@ -1,0 +1,16 @@
+U92725213
+<html>
+    <body>
+        <script>
+                function Car(make, speed) {
+                  this.make = make;
+                  this.speed = speed;
+                }
+
+                function EV(make, speed, charge) {
+                  Car.call(this, make, speed);
+                  this.charge = charge;
+                }
+        </script>
+    </body>
+</html>
